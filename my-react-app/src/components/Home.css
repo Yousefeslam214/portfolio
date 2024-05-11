@@ -1,0 +1,133 @@
+/* ==== HOME ==== */
+.home-content {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-desc {
+  width: 100%;
+}
+
+.home-desc h1 {
+  font-size: 2rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.home-desc span {
+  /* display: inline-block; */
+  margin-bottom: 20px;
+  /* font-size: var(--h2-font-size); */
+  background-color: var(--first-color);
+  color: #051e34;
+  padding: 5px 10px;
+  display: flex;
+  width: 200px;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  margin: auto;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.home-desc .home-social {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.home-desc .home-social li {
+  margin-right: 20px;
+}
+
+.home-desc .home-social a {
+  transition: var(--transition);
+}
+
+.home-desc .home-social a:hover {
+  opacity: 0.8;
+}
+.home-desc .home-social a .linkedin,
+.home-desc .home-social a .git{
+  color:var(--body_color);
+  background-color: var(--body_background);
+  /*color:var(--body_background);
+  background-color: var(--body_color);
+  */font-size: 30px;
+  padding: 0px;
+  position: relative;
+  top: 7px;
+}
+
+.home-desc .home-social a.cv {
+  font-weight: bold;
+  color: var(--light-color);
+  background-color: var(--second-color);
+  width: 41px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  border-radius: 50%;
+  position: relative;
+  top: 5px;
+}
+
+.home-desc .home-social a i {
+  font-size: var(--big-font-size);
+}
+
+
+@media (max-width: 992px) {
+  .home-content {
+    flex-direction: column;
+  }
+
+  .home-desc {
+    width: 100%;
+  }
+ 
+}
+
+@media (max-width: 1200px) {
+  .home-desc .home-social a.cv {
+    width: 29px;
+    height: 29px;
+    font-size: 14px;
+}
+}
+  @media (min-width: 1200px) {
+
+  .home-desc h1{
+    font-size: 35px;
+  }
+  .home-desc p{
+    font-size: 20px;
+  }
+}
+
+.home-social a{
+  background-color:white;
+  border-radius:100% ;
+  -webkit-border-radius:100% ;
+  -moz-border-radius:100% ;
+  -ms-border-radius:100% ;
+  -o-border-radius:100% ;
+  box-sizing: content-box !important;
+}
+
+.social-svg-icon {
+    fill: var(--body_color) !important;
+
+}
