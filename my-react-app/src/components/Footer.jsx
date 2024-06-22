@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="container">
-        <h2 className="footer__title">Yousef Eslam</h2>
+        {/* <h2 className="footer__title">Yousef Eslam</h2> */}
         <div className="footer__social">
           <a href="https://github.com/abozain1?tab=repositories" target="blank">
             <i className="bx bxl-github"></i>
@@ -15,7 +15,7 @@ const Footer = () => {
         </div>
         <span className="phone__number">
           <i className="bx bxs-phone"></i>
-          01005307391
+          +20 100 530 7391
         </span>
         <p>© 2024 copyright all right reserved</p>
       </div>

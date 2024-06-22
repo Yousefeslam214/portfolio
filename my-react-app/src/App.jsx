@@ -5,15 +5,20 @@ import Home from "./components/Home";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+
+// i need when page reder some move of animation
 const App = () => {
   return (
-    <div className="">
-      <Nav />
-      <Home />
-      <Skills />
-      <Projects />
+    <>
+
+      <div className="container">
+      </div>
+        <Nav />
+        <Home />
+        <Skills />
+        <Projects />
       <Footer />
-    </div>
+    </>
   );
 };
 

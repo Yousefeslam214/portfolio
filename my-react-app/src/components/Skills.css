@@ -9,13 +9,17 @@
 .skills-box {
   background-color: var(--light-color);
   padding: 10px;
-  border-radius: var(--radius);
+  border-radius: 1px 10px 1px 1px;
   box-shadow: 0px 1px 10px rgb(0 0 0 / 37%);
   display: flex;
   align-items: center;
   transition: var(--transition);
   height: 3rem;
   box-sizing: border-box;
+  -webkit-border-radius: 1px 10px 1px 1px;
+  -moz-border-radius: 1px 10px 1px 1px;
+  -ms-border-radius: 1px 10px 1px 1px;
+  -o-border-radius: 1px 10px 1px 1px;
 }
 
 .skills-box i {
