@@ -110,20 +110,24 @@ let projects = [
     link: "https://trippy-214.netlify.app/",
   },
   {
-    name: "Diagram(React)",
-    img: "images/Diagram.png",
-    link: "https://diagramo.netlify.app/",
+    name: "Grocery Bud",
+    img: "images/new/groceryBud.webp",
+    link: "https://grocery-bud-214.netlify.app/",
   },
   {
-    name: "TODO(TypeScript)",
-    img: "images/TODO.png",
-    link: "https://todo-alpha.netlify.app/",
+    name: "Color Generator",
+    img: "images/new/colorGenerator.webp",
+    link: "https://color-generator-214.netlify.app/",
   },
-
   {
     name: "Store(React)",
     img: "images/Store.png",
     link: "https://speedstore.netlify.app/",
+  },
+  {
+    name: "Diagram(React)",
+    img: "images/Diagram.png",
+    link: "https://diagramo.netlify.app/",
   },
 ];
 
@@ -153,43 +157,33 @@ displayProjects();
 let cert = [
   {
     name: "REACT",
-    img: "images/HackerRank.png",
-    link: "https://www.hackerrank.com/certificates/6103bafeffe1",
+    img: "images/new/reactBasic.webp",
+    link: "https://www.hackerrank.com/certificates/5606e07540a6",
   },
-  {
-    name: "PROBLEM SOLVING",
-    img: "images/P-S-I.png",
-    link: "https://www.hackerrank.com/certificates/e30a2b3c60bd",
-  },
-  {
-    name: "Angular",
-    img: "images/angularInter.png",
-    link: "https://www.hackerrank.com/certificates/1b32676ad931",
-  },
-  {
-    name: "Angular",
-    img: "images/angular.png",
-    link: "https://www.hackerrank.com/certificates/d821bcf92140",
-  },
-  {
-    name: "PROBLEM SOLVING",
-    img: "images/problem-basic.png",
-    link: "https://www.hackerrank.com/certificates/685bc23afa5e",
-  },
-  {
-    name: "FrontEnd",
-    img: "images/udacity-pro.png",
-    link: "https://confirm.udacity.com/ZSFR6CZK",
-  },
+  // {
+  //   name: "PROBLEM SOLVING",
+  //   img: "images/P-S-I.png",
+  //   link: "https://www.hackerrank.com/certificates/e30a2b3c60bd",
+  // },
+  // {
+  //   name: "Angular",
+  //   img: "images/angularInter.png",
+  //   link: "https://www.hackerrank.com/certificates/1b32676ad931",
+  // },
+  // {
+  //   name: "Angular",
+  //   img: "images/angular.png",
+  //   link: "https://www.hackerrank.com/certificates/d821bcf92140",
+  // },
+  // {
+  //   name: "PROBLEM SOLVING",
+  //   img: "images/problem-basic.png",
+  //   link: "https://www.hackerrank.com/certificates/685bc23afa5e",
+  // },
   {
     name: "FrontEnd",
-    img: "images/TESTDOME.png",
-    link: "https://app.testdome.com/cert/3e56756e45774d3188ca7785fb35ddf8 ",
-  },
-  {
-    name: "FrontEnd",
-    img: "images/egfwd.png",
-    link: "https://drive.google.com/file/d/1ABJOWLe7S7WuUQmwo_MJwr-v2zVwQgP_/view?usp=sharing ",
+    img: "images/new/testDome.webp",
+    link: "https://www.testdome.com/certificates/63a421aca4fc4ec291015c9673eacc62",
   },
 ];
 
