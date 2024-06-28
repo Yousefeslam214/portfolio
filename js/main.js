@@ -56,9 +56,12 @@ if (dark_on) {
 
 // DISPLAY SKILLS
 let skills = [
-  { name: "Redux", icon: "tabler:brand-redux" },
+  { name: "Vite", icon: "vscode-icons:file-type-vite" },
+  { name: "Firebase", icon: "devicon:firebase" },
   { name: "Material UI", icon: "devicon:materialui" },
+  { name: "Redux", icon: "tabler:brand-redux" },
   { name: "REACT", icon: "logos:react" },
+  { name: "TYPESCRIPT", icon: "logos:typescript-icon" },
   { name: "JAVASCRIPT", icon: "logos:javascript" },
   { name: "HTML", icon: "vscode-icons:file-type-html" },
   { name: "CSS", icon: "vscode-icons:file-type-css" },
@@ -119,16 +122,16 @@ let projects = [
     img: "images/new/colorGenerator.webp",
     link: "https://color-generator-214.netlify.app/",
   },
-  {
-    name: "Store(React)",
-    img: "images/Store.png",
-    link: "https://speedstore.netlify.app/",
-  },
-  {
-    name: "Diagram(React)",
-    img: "images/Diagram.png",
-    link: "https://diagramo.netlify.app/",
-  },
+  // {
+  //   name: "Store(React)",
+  //   img: "images/Store.png",
+  //   link: "https://speedstore.netlify.app/",
+  // },
+  // {
+  //   name: "Diagram(React)",
+  //   img: "images/Diagram.png",
+  //   link: "https://diagramo.netlify.app/",
+  // },
 ];
 
 let projectsContentDOM = document.querySelector(".portfolio-content");
